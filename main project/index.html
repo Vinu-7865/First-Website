@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Main Project</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="https://pngimg.com/d/google_PNG19644.png" alt="google logo" width="150px" height="auto">
+            </a>
+        </div>
+        <nav>
+            <ul style="list-style: none; display: flex;gap: 10px;">
+                <li><a href="#">Home</a style></li>
+                <li><a href="#">About</a style></li>
+                <li><a href="#">Services</a style></li>
+                <li><a href="#contact">Contact</a style></li>
+            </ul>
+        </nav>
+    </header>
+    <!--this is hero section-->
+    <main>
+        <section>
+            <h1>HEY I AM GOOGLE</h1>
+            <p>Google Search is a fully-automated search engine that uses software called web crawlers to find pages to
+                add to its index. Google Search is the most popular search engine in the world, handling more than 70%
+                of worldwide online search requests</p>
+            <br>
+            <button>see my works</button>
+            <a href="https://www.youtube.com/watch?v=5ccq_nLHneE" target="_blank">
+                <button>Visit YouTube</button>
+            </a>
+        </section>
+        <div class="hero-section">
+            <img src="https://www.techmonitor.ai/wp-content/uploads/sites/29/2017/02/shutterstock_552493561.webp"
+                width="500px" height="auto" alt="google headquarters">
+        </div>
+    </main>
+    <section>
+        <h2>About google</h2>
+        <div>
+            <p>Google is an American multinational corporation that focuses on search engine technology, online
+                advertising, cloud computing, and more.
+                Some of Google's products and services include:
+
+                Google Maps
+                Helps people navigate and orient themselves with services like point-to-point navigation and traffic
+                updates
+
+                Google Chat
+                A secure communications tool for business communications within the Google Workspace ecosystem
+
+                Google Pay
+                A mobile payment service for in-app, online, and in-person contactless purchases
+
+                Android Auto
+                A mobile app that mirrors smartphone features on a car's dashboard
+
+                Google Groups
+                A service that provides discussion groups for people with common interests
+
+                Google Input Tools
+                A tool that helps users type more easily in their desired language
+
+                Google One
+                A subscription that provides more storage across Google Drive, Gmail, and Google Photos
+            </p>
+            <p><strong>my coding knowledge</strong></p>
+            <div class="about progress">
+                <label for="html">HTML CODE:</label>
+                <progress id="html" max="100" value="75">75% html</progress>
+            </div>
+            <div class="about progress">
+                <label for="html">CSS CODE:</label>
+                <progress id="html" max="100" value="10">10% html</progress>
+            </div>
+            <div class="about progress">
+                <label for="html">JS CODE:</label>
+                <progress id="html" max="100" value="0">0% js</progress>
+            </div>
+            <div class="about progress">
+                <label for="html">MERN CODE:</label>
+                <progress id="html" max="100" value="10">10% mern</progress>
+            </div>
+        </div>
+    </section>
+    <!--our service section-->
+    <section class="service-section">
+        <h2>our services</h2>
+        <div class="service-gallery" style="display: flex;">
+
+            <figure>
+                <img src="data:image/jpeg;base64,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"
+                    alt="Maps">
+                <figcaption>google Maps</figcaption>
+            </figure>
+            <figure>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAMAAABGS8AGAAAAzFBMVEX///8ArEf7vAQmhPwAZtoAgy3qQzX8x1L7wjMAqT4XgPyLtf2Jy5ff8OIApjP8wAAAY94As0iKiaPwdyjqPjYjhOOY06cAgxYAfyCZwKC/48iIs4wAkzej1q9UhuEApS3XVDddi+HpMB3QWTjT69kAV9fxjIbo7fqdtex2muZJguOenrH/ykn3s4SPq+nvbAvwgnvd5fgvc93xlI/rJxT/xiTnfjPaTDbOSiHTqJWB0J2Ltezr9e14xYlXo2ZUu3AAdADH28mpyK16vYsvLACrAAABnUlEQVRYhe3WWVeCQBjG8bHUomIkKyPLMKPF9rKy1a3v/51KAVnmAQfn5aJz5n/DFb/zHC5mYIyxi8vuidex19X1zZp8tyyluzPLKs/yH2WrviJf7f4hzS0ns+q1HPBOB8qPopsX3oVy11KHq51zEX4S3fwwkoG7BAxkIliUqWBBJoOTMh2ckAnhuEwJVzu9guDoZlo4spkYDmVquPrcKwgONtPD/uYCYG8zhuVdBM82Y/hlXb7Xfr8979Tr7Z2tgjY2hWM7o49tkEEAbxklkIY1rGENa1jDGtawhunhPdRn+NqXuahvDO+jDueuyxcG3RKrgOw57DrwLYmyYRevUYZdvrSbCau4WbCSmwGruemwopsKq7ppsKnqYrgyUGXT4CMN/wt4UAw8ZBO7CJi3GPwW6ov/DpvxSNysCBuOOz0ezYE9suNh2JCL86EZ3MTjyUG0yQ+6knij0YrXQLWaAQtqgjPIcPP8bMjDDoULYJK9AKbZK8JEewWYam8SJtubgOn2xmHCvTGYcm8U5qRuCNPuDWHS7zvN/8FScX8Bt11kDM9jvH8AAAAASUVORK5CYII="
+                    alt="google chat">
+                <figcaption>google Chat</figcaption>
+            </figure>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxD6g9wZUxbx6vSn_N_QWg--30JBOeu-BppJvFzC4xijvj8z88rJG6Iaz0iDz4s4sW8cSBrw"
+                    alt="google pay">
+                    <figcaption>google pay</figcaption>
+            </figure>
+            <figure>
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTVIIJAwmQi93RQPJRDGckBTWaKymxdq4eEmLCb0AZ8nuNF9Y4oGUSwHa3YXdMlWJM4vxQ6MQ" alt="android auto">
+                <figcaption>android auto</figcaption>
+           
+            </figure>
+        </div>
+    </section>
+    <!-- our blog section -->
+     <section class="blog-section">
+        <h2>Our Blogs</h2>
+        <article>
+            <header>
+                <h2>google maps</h2>
+            </header>
+            <p><strong><em>google maps</em></strong>
+                shows you information about the places you're interested in, based on where you're looking and what you've searched for</p>
+                <section>
+                    <h3>more about google maps</h3>
+                    <p>When you explore locations on Google Maps, you sometimes see content provided by other users—such as reviews and photographs—to help you better understand those places.
+                    </p>
+                </section>
+                <section>
+                    <h3>google chat</h3>
+                    <p>part of the modern Gmail experience and is available for browser, mobile device and as a standalone application.</p>
+                </section>
+                <section>
+                    <h3>google pay</h3>
+                    <p> simple and secure way to manage your money. </p>
+                </section>
+                <section>
+                    <h3>android auto</h3>
+                    <p>a Google-developed app that allows you to use your Android phone's apps on your car's infotainment system:</p>
+                </section>
+        </article>
+        <p> <strong>Thank you for reading till now!</strong></p>
+     </section>
+
+     <!-- podcast section -->
+      <section>
+        <p><em>i have also added my podcast in this website</em></p>
+        <audio src="starboy  Jenna Ortega Edit  tiktok.mp3" controls></audio>
+      </section>
+
+      <!-- other article link section -->
+       <section>
+        <ul>
+           <a href="#"><li>subscribe to this channel</li></a>  
+           <a href="#"><li>like&comment</li></a> 
+           <a href="#"><li>enjoy</li></a> 
+           <a href="#"><li>stay tune</li></a> 
+           <a href="#"><li>bye bye</li></a> 
+        </ul>
+       </section>
+       <!-- contact section -->
+        <section>
+            <h2>Feel free contact us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31461.52216736956!2d76.45886084685898!3d9.707453883386938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07d5df9728a9d3%3A0x4be099fb70bb0890!2sKallara%2C%20Kerala!5e0!3m2!1sen!2sin!4v1732258589898!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="my google map"></iframe>
+            <!-- form area -->
+            <form action="">
+                <div> 
+               <label for="username">username:</label>
+                <input type="text" id="username">
+                </div>
+                <br>
+                 <div>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email"
+                    required
+                    autocomplete="off">
+                </div>
+                <br>
+                <div>
+                    <label for="textarea">Message:</label>
+                 <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                
+                </div> 
+                <br>
+                <input type="submit"> 
+          </form>
+        </section>
+           <!-- footer section -->
+            <footer>
+                <p>copyright &copy; all 2024 right reserved</p>
+            </footer>
+
+</body>
+
+</html>
